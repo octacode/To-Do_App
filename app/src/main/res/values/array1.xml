@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array1">
+        <item>Want do something? Write here.</item>
+        <item>Write something here</item>
+        <item>Check on the box below to set an Alarm.</item>
+        <item>Long tap on any item in the list</item>
+        <item>Hey! How are you doin\'?</item>
+        <item>Developed by a someone who does this for fun</item>
+        <item>You are not planning to delete me?</item>
+        <item>This app is exclusively for you.</item>
+    </string-array>
+</resources>

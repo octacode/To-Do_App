@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shasha.kumarshashwat.Any_Do">
+
+    <uses-permission android:name="com.android.ALARM_MANAGER" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/plus"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.kumarshashwat.Any_Do.Animation1"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.kumarshashwat.Any_Do.Main3Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.kumarshashwat.Any_Do.AlarmPlaying"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="com.example.kumarshashwat.Any_Do.MyReciever" />
+
+        <service android:name="com.example.kumarshashwat.Any_Do.MyService" />
+
+        <activity
+            android:name="com.example.kumarshashwat.Any_Do.Dev"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.kumarshashwat.Any_Do.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.kumarshashwat.Any_Do.Main13Activity"
+            android:alwaysRetainTaskState="true"/>
+        <activity android:name="com.example.kumarshashwat.Any_Do.Catcher" />
+        <activity android:name="com.example.kumarshashwat.Any_Do.start" />
+        <activity android:name="com.example.kumarshashwat.Any_Do.getstarted"></activity>
+    </application>
+
+</manifest>

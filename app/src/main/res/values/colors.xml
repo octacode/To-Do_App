@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/holo_blue_dark</color>
+    <color name="colorPrimaryDark">@android:color/holo_blue_dark</color>
+    <color name="colorAccent">#FFf</color>
+    <color name="white">#fff</color>
+    <color name="blue">#c5ffe9</color>
+    <color name="yellow">#f2f41a</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
